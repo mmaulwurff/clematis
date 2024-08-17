@@ -65,7 +65,7 @@ class Clematis abstract{
     void AfterAll(){}
 
     void Describe(Name TestSuiteName){
-        TestSuiteNames.Push(int(TestSuiteName));
+        TestSuiteNames.Push(TestSuiteName);
         StartResultIndex.Push(Results.Size());
         Failures.Push(0);
         Successes.Push(0);
