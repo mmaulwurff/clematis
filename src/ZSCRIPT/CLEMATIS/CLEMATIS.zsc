@@ -104,7 +104,7 @@ class Clematis abstract{
         AfterEachSuite();
     }
 
-    void It(Name TestCaseName, Cl_Assertion Assertion, Cl_ELogSeverity Severity){
+    void It(Name TestCaseName, Cl_Assertion Assertion, Cl_ELogSeverity Severity = LOG_Error){
         BeforeEachTask();
 
         uint TimeBefore=MSTime();
