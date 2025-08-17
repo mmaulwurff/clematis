@@ -1,6 +1,8 @@
-# Clematis
+# ClematisM
 Basic ZScript unit test framework for GZDoom \
 Inspired by [Lilac](https://github.com/chesko256/Lilac) by [Chesko](https://github.com/chesko256)
+
+Clematis is made by ZippeyKeys12, modified and renamed to ClematisM by m8f.
 
 ## Documentation
 ### Making Test Suites
